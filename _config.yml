@@ -3,6 +3,8 @@ url: https://suzeshardlow.com
 collections:
   coding_projects:
     output: true
+  speaking:
+    output: false
 
 defaults:
   - scope:
