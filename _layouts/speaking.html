@@ -31,30 +31,44 @@
             </header>
         </section>
         <span class="image main"><img src="{{ page.image }}"></span>
+        {% for talk in site.speaking %}
         <div class="row">
-          {% for talk in site.speaking %}
-          <div class="col-6 col-12-medium">
-            <a href="{{ talk.url }}">
-              <span class="image fit">
-                <div class="zoombox">
-                  <img src="{{ talk.image }}" class="zoomimg">
-                </div>
-              </span>
-              <div>
-                <h3 class="learn-header">{{ talk.name }}
-            </a></h3>
-            <!-- <div class="align-right learn-more">
-              <a href="{{ talk.url }}" class="button small align-right">Learn More</a>
-            </div> -->
+          <div class="col-4 col-12-medium">
+            <span class="image fit">
+              <div class="zoombox">
+                <img src="{{ talk.image }}" class="zoomimg">
+              </div>
+            </span>
           </div>
-          <p>{{ talk.sub_headline }}</p>
+          <div class="col-8 col-12-medium">
+            <h3 class="learn-header">{{ talk.event_name }} •
+              {% assign day = talk.date | date: "%-d"  %}
+              {% case day %}
+              {% when '1' or '21' or '31' %}{{ day }}st
+              {% when '2' or '22' %}{{ day }}nd
+              {% when '3' or '23' %}{{ day }}rd
+              {% else %}{{ day }}th
+              {% endcase %}
+              {{ talk.date | date: " %B %Y" }}
+            </h3>
+            <h3>{{ talk.event_location }}</h3>
+            <h4>{{ talk.talk_title }} • {{ talk.talk_format }}</h4>
+
+            {% if talk.audio_link %}
+            <a href="{{ talk.audio_link }}" class="button icon solid large fa-headphones" target=_blank>Listen</a>
+            {% endif %}
+
+            {% if talk.video_link %}
+            <a href="{{ talk.video_link }}" class="button icon solid large fa-tv" target=_blank>Watch</a>
+            {% endif %}
+
+            {{ talk.content }}
+          </div>
         </div>
         {% endfor %}
       </div>
-      {{ content }}
     </div>
-  </div>
-  {% include navigation.html %}
+    {% include navigation.html %}
   </div>
 
   <script src="/assets/js/jquery.min.js"></script>

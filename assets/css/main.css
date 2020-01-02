@@ -2671,6 +2671,7 @@ section, summary, time, mark, audio, video {
       font-size: 1em;
       height: 3.65em;
       line-height: 3.65em;
+      margin-bottom: 1em;
     }
 
     input[type="submit"].primary,
