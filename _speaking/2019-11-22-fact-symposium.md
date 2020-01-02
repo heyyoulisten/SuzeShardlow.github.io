@@ -1,12 +1,11 @@
 ---
 event_name: FACT///.Mapping Feminists Coding Practices Symposium
 event_location: University of Sussex, Sussex, United Kingdom, European Union
-event_link: event.html
+event_link: https://www.chase.ac.uk/events/2019/11/20/factmapping-feminists-coding-practices-symposium
 talk_title: Working Towards More Inclusive Tech Communities
 talk_format: Long talk (25 minutes)
-# video_link: /images/borro_on_macbook.jpg
+# video_link: add-video-link-here.html
 audio_link: https://soundcloud.com/suzeshardlow/working-towards-more-inclusive-tech-communities
-video_link: https://soundcloud.com/suzeshardlow/working-towards-more-inclusive-tech-communities
 image: /images/speaking/suze_fact.jpg
 ---
 

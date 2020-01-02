@@ -5,6 +5,7 @@ collections:
     output: true
   speaking:
     output: false
+    sort_by: date
 
 defaults:
   - scope:
