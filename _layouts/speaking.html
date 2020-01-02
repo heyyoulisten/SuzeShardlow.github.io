@@ -62,6 +62,11 @@
             <a href="{{ talk.video_link }}" class="button icon solid large fa-tv" target=_blank>Watch</a>
             {% endif %}
 
+            {% if talk.event_link %}
+            <a href="{{ talk.event_link }}" class="button icon solid large fa-globe" target=_blank>Event Website</a>
+            {% endif %}
+
+
             {{ talk.content }}
           </div>
         </div>

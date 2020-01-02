@@ -8,10 +8,14 @@ video_link: https://www.youtube.com/watch?v=Bghs_OyTbrE
 image: /images/speaking/suze_coed_code.jpg
 ---
 
+**_The video for this talk has had more than 6400 views on YouTube._**
+
 **Talk abstract**
 
-When you enter the tech industry, you soon realise that meetups are a Thing. Groups gather every night of the week in every major city in the world and share IT ideas and knowledge over pizza and beers.
+People who grew up in the 80s were surrounded by stories of the new, exciting digital age.  Now in their 40s, some of those who came of age listening to Britpop now head up successful tech companies, while others took a different path and are now embarking on second careers as coders.  Suze, a former marketing manager-turned-Met Police surveillance expert, shares her journey to becoming a software engineer in the year she turned 40 and discovering how things have moved on since programming her BBC Micro on the one TV in the house.
 
 **About the event**
 
-HI
+COED:CODE is a warm, fun and supportive tech meetup group looking at systems and infrastructure programming.  
+
+The speakers are mostly women and those from other typically underrepresented backgrounds in technology and everyone is welcome to attend.

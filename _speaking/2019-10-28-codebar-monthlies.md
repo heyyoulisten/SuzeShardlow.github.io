@@ -1,9 +1,9 @@
 ---
 event_name: codebar Monthlies
 event_location: Ticketmaster, London, United Kingdom, European Union
-event_link: https://www.chase.ac.uk/events/2019/11/20/factmapping-feminists-coding-practices-symposium
+event_link: https://codebar.io/meetings/monthly-oct-2019
 talk_title: Hackathons For The Uninitiated
-talk_format: Long talk (25 minutes)
+talk_format: Long talk (25 minutes plus Q&A)
 # video_link: add-video-link-here.html
 # audio_link: add-audio-link-here.html
 image: /images/speaking/suze_codebar_oct_2019.jpg
@@ -15,4 +15,4 @@ Hackathons are for everyone, even if you can't code. Suze Shardlow, software eng
 
 **About the event**
 
-codebar Monthlies focus on creating great conversations about topics that interest the codebar community and might help someone reach the next step in their development career.  codebar exists to enable underrepresented people to learn programming in a safe and collaborative environment and expand their career opportunities.
+codebar Monthlies focus on creating great conversations about topics that interest the codebar community and might help someone reach the next step in their development career.  codebar is a non-profit that runs weekly coached coding workshops free of charge for people from groups that are underrepresented in tech.  The workshops enable students to learn programming in a safe and collaborative environment and expand their career opportunities.
